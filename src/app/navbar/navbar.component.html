@@ -1,0 +1,22 @@
+<div class="w-screen h-screen flex ">
+  <div class="w-[20%] h-screen border-r border-gray-500">
+    <div class="w-full flex flex-col justify-center items-center">
+      <span class="font-bold py-2">TODO</span>
+      <a href="/" class="w-[80%] space-x-4 text-gray-600 cursor-pointer">
+        <span><i class="bi bi-house"></i></span> <span>Home</span>
+      </a>
+      <span class="w-[80%] space-x-4 mt-2 text-gray-600 cursor-pointer">
+        <span><i class="bi bi-sliders"></i></span> <span>Filter</span>
+      </span>
+      <a href="/addtodo" class="w-[80%] space-x-4 mt-2 text-gray-600 cursor-pointer">
+        <span><i class="bi bi-plus-circle"></i></span> <span>Add Todo</span>
+      </a>
+      <span class="w-[80%] space-x-4 mt-2 text-gray-600 cursor-pointer">
+        <span><i class="bi bi-box-arrow-left"></i></span> <span>Login</span>
+      </span>
+    </div>
+  </div>
+  <div class="w-[80%] h-full">
+    <router-outlet></router-outlet>
+  </div>
+</div>
